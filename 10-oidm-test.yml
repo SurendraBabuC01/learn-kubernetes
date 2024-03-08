@@ -15,7 +15,7 @@ kind: Pod
 metadata:
   name: test1
 spec:
-  ServiceAccountName: test1
+  serviceAccountName: test1
   containers:
     - name: debug
       image: rkalluru/loaded:centos8
@@ -25,7 +25,7 @@ kind: Pod
 metadata:
   name: test2
 spec:
-  ServiceAccountName: test2
+  serviceAccountName: test2
   containers:
     - name: debug
       image: rkalluru/loaded:centos8
